@@ -1,0 +1,218 @@
+html, body{
+    height:100%;
+    width: 100%;
+    overflow: hidden;
+    background-color:black;
+}
+p {
+    font-family: 'TeXGyreAdventorRegular';
+    font-weight: normal;
+    font-style: normal;
+    color:white;
+ }
+ h1{
+     color:white;
+ }
+ .logosite{
+     position: absolute;
+     height:5vh;
+     width:10vw;
+     top:1vh;
+
+ }
+.navbar{
+    height: 7vh;
+    width:100vw;
+    border: 2px solid lightgrey;
+    position: absolute;
+    top:0;
+    left:0;
+    background-color: rgb(56, 149, 185);
+    border-top:none;
+    border-right:none;
+    border-left:none;
+}
+.navigation{
+    height:5vh;
+    width:85vw;
+    position: absolute;
+    left:7vw;
+    top:1.9vh;
+
+}
+.nav{
+    text-decoration: none;
+    font-size:3vh;
+    margin-left:10vw;
+    font-family: 'TeXGyreAdventorRegular';
+    color:white;
+    font-weight: bold;
+}
+.nav:hover{
+    color:lightgrey;
+}
+
+/*Fin navbar*/
+/*Début compétences**/
+
+/*Flip card pour langage*/
+
+.flip-card {
+    background-color: transparent;
+    width: 20vw;
+    height: 40vh;
+    perspective: 1000px;
+    position: absolute;
+    top:30vh;
+    left:15vw;
+
+  }
+
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  }
+
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+    border:2px solid white;
+  }
+
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+  }
+
+  .flip-card-front {
+    background-image: url(fonddeux.jpg);
+    color: white;
+    border:2px solid white;
+    font-size:7vh;
+  }
+  .positiontitrelangage{
+    position: relative;
+    top:7vh;
+  }
+
+  .flip-card-back {
+    background-image: url(langages.png);
+    background-size:cover;
+    background-repeat:no-repeat;
+    color: white;
+    transform: rotateY(180deg);
+  }
+
+  /*Flip Card pour Environnement*/
+
+  .flip-carddeux {
+    background-color: transparent;
+    width: 20vw;
+    height: 40vh;
+    perspective: 1000px;
+    position: absolute;
+    top:30vh;
+    left:40vw;
+
+  }
+
+  .flip-card-innerdeux {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  }
+
+  .flip-carddeux:hover .flip-card-innerdeux {
+    transform: rotateY(180deg);
+    border:2px solid white;
+  }
+
+  .flip-card-frontdeux, .flip-card-backdeux {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+  }
+
+  .flip-card-frontdeux {
+    background-image: url(fonddeux.jpg);
+    color: white;
+    border:2px solid white;
+    font-size:5.5vh;
+  }
+  .positiontitre{
+    position: relative;
+    top:10vh;
+  }
+
+  .flip-card-backdeux {
+    background-image: url(environnement.png);
+    background-color:#2980b9;
+    background-size:cover;
+    background-repeat: no-repeat;
+    color: white;
+    transform: rotateY(180deg);
+  }
+
+  /*Flip Card trois*/
+
+  .flip-cardtrois {
+    background-color: transparent;
+    width: 20vw;
+    height: 40vh;
+    perspective: 1000px;
+    position: absolute;
+    top:30vh;
+    left:65vw;
+
+  }
+
+  .flip-card-innertrois {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  }
+
+  .flip-cardtrois:hover .flip-card-innertrois {
+    transform: rotateY(180deg);
+    border:2px solid white;
+  }
+
+  .flip-card-fronttrois, .flip-card-backtrois {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+  }
+
+  .flip-card-fronttrois {
+    background-image: url(fonddeux.jpg);
+    color: white;
+    border:2px solid white;
+    font-size:6vh;
+  }
+  .positiontitrehn{
+    position: relative;
+    top:4.8vh;
+  }
+
+  .flip-card-backtrois {
+    background-color: #2980b9;
+    color: white;
+    transform: rotateY(180deg);
+    font-size:4vh;
+  }

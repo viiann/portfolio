@@ -1,0 +1,73 @@
+html, body{
+    height:100%;
+    width: 100%;
+    background-color:black;
+    overflow-x: hidden;
+}
+p {
+    font-family: 'TeXGyreAdventorRegular';
+    font-weight: normal;
+    font-style: normal;
+    color:white;
+ } 
+ h1{
+     color:white;
+ }
+ .logosite{
+    position: absolute;
+    height:5vh;
+    width:10vw;
+    top:1vh;
+
+}
+.navbar{
+    height: 7vh;
+    width:100vw;
+    border: 2px solid lightgrey;
+    position: absolute;
+    top:0;
+    left:0;
+    background-color: rgb(56, 149, 185);
+    border-top:none;
+    border-right:none;
+    border-left:none;
+}
+.navigation{
+    height:5vh;
+    width:85vw;
+    position: absolute;
+    left:7vw;
+    top:1.9vh;
+
+}
+.nav{
+    text-decoration: none;
+    font-size:3vh;
+    margin-left:10vw;
+    font-family: 'TeXGyreAdventorRegular';
+    color:white;
+    font-weight: bold;
+}
+.nav:hover{
+    color:lightgrey;
+}
+
+
+.logosimplon{
+    position: absolute;
+    top:10vh;
+    height:29vh;
+    width:48vw;
+    background-image: url(logosimplon.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.descriptionsimplon{
+    height:80vh;
+    width:70vw;
+    position: absolute;
+    top:40vh;
+    left:27vw;
+    font-size: 3vh;
+}

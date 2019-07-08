@@ -1,0 +1,99 @@
+html, body{
+    height:100%;
+    width: 100%;
+    overflow: hidden;
+    background-color:black;
+}
+p, label {
+    font-family: 'TeXGyreAdventorRegular';
+    font-weight: normal;
+    font-style: normal;
+    color:white;
+ } 
+ h1{
+     color:white;
+ }
+ .logosite{
+    position: absolute;
+    height:5vh;
+    width:10vw;
+    top:1vh;
+
+}
+.navbar{
+    height: 7vh;
+    width:100vw;
+    border: 2px solid lightgrey;
+    position: absolute;
+    top:0;
+    left:0;
+    background-color: rgb(56, 149, 185);
+    border-top:none;
+    border-right:none;
+    border-left:none;
+}
+.navigation{
+    height:5vh;
+    width:85vw;
+    position: absolute;
+    left:7vw;
+    top:1.9vh;
+
+}
+.nav{
+    text-decoration: none;
+    font-size:3vh;
+    margin-left:10vw;
+    font-family: 'TeXGyreAdventorRegular';
+    color:white;
+    font-weight: bold;
+}
+.nav:hover{
+    color:lightgrey;
+}
+
+/*Partie Contact*/
+form{
+    height:68vh;
+    width:25vw;
+    position: absolute;
+    top:18vh;
+    left:8vw;
+    border:2px solid white;
+    padding-top:4vh;
+    padding-left:4vh;
+}
+
+.nom{
+    margin-left:3vw;
+}
+.prenom{
+    margin-left:1.2vw;
+}
+.email{
+    margin-left:2.4vw;
+}
+.tel{
+    margin-left:4vw;
+}
+.commentaire{
+    height:100px;
+    width:280px;
+}
+
+.contact{
+    height: 30vh;
+    width: 30vw;
+    position: absolute;
+    top:25vh;
+    left:50vw;
+    font-size:3vh;
+}
+
+.logo{
+    position: absolute;
+    top:45vh;
+    left:60vw;
+    height:18vh;
+    width:10vw;
+}

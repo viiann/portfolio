@@ -1,0 +1,47 @@
+html, body{
+    height:100%;
+    width: 100%;
+    overflow: hidden;
+    background-color:black;
+}
+p {
+    font-family: 'TeXGyreAdventorRegular';
+    font-weight: normal;
+    font-style: normal;
+    color:white;
+ } 
+ h1{
+     color:white;
+ }
+
+.navbar{
+    height: 7vh;
+    width:100vw;
+    border: 2px solid lightgrey;
+    position: absolute;
+    top:0;
+    left:0;
+    background-color: rgb(56, 149, 185);
+    border-top:none;
+    border-right:none;
+    border-left:none;
+}
+.navigation{
+    height:5vh;
+    width:85vw;
+    position: absolute;
+    left:7vw;
+    top:1.9vh;
+
+}
+.nav{
+    text-decoration: none;
+    font-size:3vh;
+    margin-left:10vw;
+    font-family: 'TeXGyreAdventorRegular';
+    color:white;
+    font-weight: bold;
+}
+.nav:hover{
+    color:lightgrey;
+}

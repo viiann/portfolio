@@ -1,0 +1,168 @@
+html, body{
+    height:100%;
+    width: 100%;
+    overflow: hidden;
+    background-color:black;
+}
+p {
+    font-family: 'TeXGyreAdventorRegular';
+    font-weight: normal;
+    font-style: normal;
+    color:white;
+ } 
+ h1{
+     color:white;
+ }
+.logosite{
+    position: absolute;
+    height:5vh;
+    width:10vw;
+    top:1vh;
+
+}
+.navbar{
+    height: 7vh;
+    width:100vw;
+    border: 2px solid lightgrey;
+    position: absolute;
+    top:0;
+    left:0;
+    background-color: rgb(56, 149, 185);
+    border-top:none;
+    border-right:none;
+    border-left:none;
+}
+.navigation{
+    height:5vh;
+    width:85vw;
+    position: absolute;
+    left:7vw;
+    top:1.9vh;
+
+}
+.nav{
+    text-decoration: none;
+    font-size:3vh;
+    margin-left:10vw;
+    font-family: 'TeXGyreAdventorRegular';
+    color:white;
+    font-weight: bold;
+}
+.nav:hover{
+    color:lightgrey;
+}
+.photo{
+    height:40vh;
+    width:20vw;
+    border:2px solid lightgrey;
+    border-radius : 5%;
+    position: absolute;
+    left:6vw;
+    top:18vh;
+    background-image:url(photo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.presentation{
+    height:20vh;
+    width:25vw;
+    border: 1px solid black;
+    border:none;
+    position: absolute;
+    left: 3vw;
+    top:58vh;
+    text-align: center;
+    font-size:2.2vh;
+}
+#titreun{
+    position: absolute;
+    top:13vh;
+    left:43vw;
+    font-size: 3vh;
+}
+#titredeux{
+    position: absolute;
+    top:13vh;
+    left:57.4vw;
+    font-size: 3vh;
+}
+#titretrois{
+    position: absolute;
+    top:13vh;
+    left:79vw;
+    font-size:3vh;
+}
+.origine{
+    border:2px solid lightgrey;
+    border-radius:5%;
+    height:65vh;
+    width:20vw;
+    position: absolute;
+    left:36vw;
+    top:25vh;
+    background-image: url(jeanbart.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+#descriptionorigine{
+    display:none;
+    text-align:center;
+    position:absolute;  
+    font-size:2.5vh;
+
+}
+.origine:hover{
+    background-image:unset;
+}
+.origine:hover #descriptionorigine{
+    display:block;
+}
+.identite{
+    border:2px solid lightgrey;
+    border-radius:5%;
+    height:65vh;
+    width:20vw;
+    position: absolute;
+    left:57vw;
+    top:25vh;
+    background-image: url(fondeur.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#descriptionidentite{
+    display:none;
+    text-align: center;
+    font-size:2.5vh;
+}
+.identite:hover{
+    background-image:unset;
+}
+.identite:hover #descriptionidentite{
+    display:block;
+}
+.avenir{
+    border:2px solid lightgrey;
+    border-radius:5%;
+    height:65vh;
+    width:20vw;
+    position: absolute;
+    left:78vw;
+    top:25vh;
+    background-image: url(code.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#descriptionavenir{
+    display:none;
+    text-align: center;
+    font-size: 2.5vh;
+}
+.avenir:hover{
+    background-image:unset;
+}
+.avenir:hover #descriptionavenir{
+    display:block;
+}
