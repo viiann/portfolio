@@ -4,6 +4,10 @@ html, body{
     background-color:black;
     overflow-x: hidden;
 }
+@font-face{
+    font-family:'TeXGyreAdventorRegular';
+    src:url("TeXGyreAdventorRegular.otf");
+}
 p {
     font-family: 'TeXGyreAdventorRegular';
     font-weight: normal;
